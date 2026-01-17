@@ -9,6 +9,8 @@ st.write(
   """
 )
 
+st.stop()
+
 order_name=st.text_input('Name on the Smoothie:')
 if order_name:
     st.write('The name on your Smoothie will be ',order_name)
