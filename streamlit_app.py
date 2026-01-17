@@ -10,7 +10,7 @@ from snowflake.snowpark.functions import col
 # )
 
 st.title('My Parents New Healthy Diner')
-st.tile('Breakfast Menu')
+st.title('Breakfast Menu')
 st.write("""
 Omega 3 
 """)
