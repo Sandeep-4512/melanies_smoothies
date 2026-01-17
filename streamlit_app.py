@@ -9,13 +9,8 @@ from snowflake.snowpark.functions import col
 #   """
 # )
 
-st.title('My Parents New Healthy Diner')
-st.title('Breakfast Menu')
-st.write("""
-Omega 3 
-""")
 
-st.stop()
+
 
 order_name=st.text_input('Name on the Smoothie:')
 if order_name:
